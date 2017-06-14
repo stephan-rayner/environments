@@ -16,3 +16,5 @@ ps:
 
 logs:
 	docker-compose logs
+
+restart: down up
