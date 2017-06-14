@@ -14,13 +14,12 @@ Edit the `docker-compose.yml` file so that the volume points to where ever your 
 
 ## Starting
 
-Run `./launch`. When the launch script is done it will display a link to your running jupyter environment. It will look a bit like the below...
+Run `make up`
 
-`http://localhost:8888/?token=6b58f7f9949410c31a0448d8b58e4e7a5aa5d56d8a193948`
 
 ## Shutting Down
 
-In this directory run `docker-compose down`.
+In this directory run `make down`.
 
 ## Common Solutions to Common Problems
 - Is Docker installed?
