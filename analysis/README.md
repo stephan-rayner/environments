@@ -32,3 +32,4 @@ Edit the `docker-compose.yml` file so that the volume points to where ever your 
 - Is Docker installed?
 - Is Docker Compose installed?
 - Is Docker turned on?
+- Is Make installed?
