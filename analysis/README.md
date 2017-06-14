@@ -14,12 +14,19 @@ Edit the `docker-compose.yml` file so that the volume points to where ever your 
 
 ## Starting
 
-Run `make up`
-
+`>> make up`
 
 ## Shutting Down
 
-In this directory run `make down`.
+`>> make down`
+
+## Viewing Logs
+
+`>> make logs`
+
+## View Running Processes
+
+`>> make ps`
 
 ## Common Solutions to Common Problems
 - Is Docker installed?
