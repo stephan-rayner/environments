@@ -2,4 +2,7 @@ brewer2mpl
 mrjob
 beautifulsoup4
 scipy
-chartjs
+pyfunctional
+pymysql
+sqlalchemy
+
