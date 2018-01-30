@@ -10,8 +10,7 @@ up:
 	docker-compose up -d
 
 open:
-	sleep 5; open $(docker-compose logs | grep http://localhost | tr " " "\n" | grep http://localhost)
-
+	open `docker-compose logs | grep http://localhost | tr " " "\n" | grep http://localhost`
 ps:
 	docker-compose ps
 
