@@ -1,3 +1,4 @@
+ipyleaflet
 brewer2mpl
 mrjob
 beautifulsoup4
