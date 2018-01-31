@@ -3,10 +3,10 @@
 help:				## | Show this help.
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
 
-build:				## | Build the anaylsis environment with all need dependencies.
+build:				## | Build the analysis environment with all need dependencies.
 	docker-compose build
 
-down:				## | Take the envrionment down and clean up
+down:				## | Take the environment down and clean up
 	docker-compose down
 
 up:				## | Launch the environment
