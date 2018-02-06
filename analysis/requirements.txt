@@ -6,4 +6,5 @@ scipy
 pyfunctional
 pymysql
 sqlalchemy
-
+pandasql
+factor_analyzer
