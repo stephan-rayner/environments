@@ -8,3 +8,5 @@ pymysql
 sqlalchemy
 pandasql
 factor_analyzer
+plotly
+boto3
